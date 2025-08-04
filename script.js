@@ -1,12 +1,12 @@
 $(document).ready(function () {
-  $("#navBar").load("navbar.html", function () {
+  $("#navBar").load("/navbar.html", function () {
     if (window.location.pathname === "/" || window.location.pathname.endsWith("index.html")) {
       window.addEventListener("load", () => {
         runLogoAnimation();
       });
     }
   });
-  $("#footer").load("footer.html");
+  $("#footer").load("/footer.html");
 });
 
 function runLogoAnimation() {
@@ -42,4 +42,5 @@ function runLogoAnimation() {
       desktopOverlayLogo.style.pointerEvents = "none";
     }, 1200);
   });
+
 }
