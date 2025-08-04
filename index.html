@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>TJD | Home</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+            crossorigin="anonymous" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+    </head>
+
+    <body>
+        <!-- Splash Logo -->
+        <div class="d-flex justify-content-center align-items-center" id="desktopOverlayLogo">
+            <img src="assets/logo-transparent.png" alt="Logo" />
+        </div>
+
+        <!-- Dynamic Navbar -->
+        <header id="navBar"></header>
+
+        <div id="content">
+            <div class="row" id="intro">
+                <div class="col-lg-12 col-md-12 col-sm-12" id="introContent">
+                    <div id="gifDiv"></div>
+                    <br />
+                    <h5>BJJ - MMA</h5>
+                    <a class="btn btn-outline-light rounded-pill" role="button" href="#schedule" id="joinBtn">JOIN A CLASS</a>
+                </div>
+            </div>
+
+            <div class="row otherContent p-5" id="schedule">
+                <div id="scheduleTitle" class="col-xl-1 col-lg-12 col-md-12 col-sm-12">
+                    <p id="scheduleText">SCHEDULE</p>
+                    <p id="dateTimeText">2025 | 8PM-10PM</p>
+                </div>
+                <div id="scheduleContent" class="col-xl-7 col-lg-8 col-md-12 col-sm-12">
+                    <!--<h3>2025 . 8PM - 10PM</h3>-->
+                    <div class="dayActivity">
+                        <div class="rounded-pill classType classDiv d-none d-lg-flex">BRAZILIAN JIU JITSU</div>
+                        <div class="rounded-pill classDay classDiv d-none d-lg-flex">TUESDAYS</div>
+
+                        <div class="rounded-pill classType classDiv d-flex d-lg-none">BJJ</div>
+                        <div class="rounded-pill classDay classDiv d-flex d-lg-none">TUE</div>
+                    </div>
+                    <div class="dayActivity">
+                        <div class="rounded-pill classType classDiv d-none d-lg-flex">BRAZILIAN JIU JITSU</div>
+                        <div class="rounded-pill classDay classDiv d-none d-lg-flex">THURSDAYS</div>
+
+                        <div class="rounded-pill classType classDiv d-flex d-lg-none">BJJ</div>
+                        <div class="rounded-pill classDay classDiv d-flex d-lg-none">THUR</div>
+                    </div>
+                    <div class="dayActivity">
+                        <div class="rounded-pill classType classDiv">OPEN MAT</div>
+                        <div class="rounded-pill classDay classDiv d-none d-lg-flex">FRIDAYS</div>
+
+                        <div class="rounded-pill classDay classDiv d-flex d-lg-none">FRI</div>
+                    </div>
+                </div>
+                <div id="schedulePricing" class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <!--<h3>FEES</h3>-->
+                    <div class="pricingDiv">
+                        <div class="pricingCat">ADULT</div>
+                        <div class="pricingPrice">MYR130.00/mth</div>
+                    </div>
+                    <div class="pricingDiv">
+                        <div class="pricingCat">STUDENT</div>
+                        <div class="pricingPrice">MYR90.00/mth</div>
+                    </div>
+                    <div class="pricingDiv">
+                        <div class="pricingCat">WALK-INS</div>
+                        <div class="pricingPrice">MYR25.00/-</div>
+                    </div>
+                </div>
+                <div id="scheduleRemarks" class="col-xl-11 col-lg-12 col-md-12 col-sm-12 offset-xl-1">
+                    <p>
+                        * For more info & private training, drop us a DM
+                        <a href="https://www.instagram.com/tempurjarakdekatmma/" target="_blank"><strong>@tempurjarakdekat</strong></a>
+                        or Whatsapp <a href="https://wa.me/601110020443" target="_blank"><strong>011-1002&nbsp;0443</strong></a> //
+                        <a href="https://wa.me/60138847972" target="_blank"><span style="white-space: nowrap;"><strong>013-884&nbsp;7972</strong></span></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row otherContent p-5" id="roster">
+                <div class="col-lg-4 cold-md-4 col-sm-6">ONE FACE</div>
+                <div class="col-lg-4 cold-md-4 col-sm-6">TWO FACE</div>
+                <div class="col-lg-4 cold-md-4 col-sm-6">THREE FACE</div>
+                <div class="col-lg-4 cold-md-4 col-sm-6">FOUR FACE</div>
+                <div class="col-lg-4 cold-md-4 col-sm-6">FIVE FACE</div>
+                <div class="col-lg-4 cold-md-4 col-sm-6">SIX FACE</div>
+                <div class="col-lg-4 cold-md-4 col-sm-6">SEVEN FACE</div>
+            </div>
+        </div>
+
+        <!-- Dynamic Footer -->
+        <footer id="footer"></footer>
+
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
