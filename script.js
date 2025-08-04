@@ -1,7 +1,5 @@
-console.log("Checking Log");
 $(document).ready(function () {
   $("#navBar").load("navbar.html", function () {
-  console.log("Navbar loaded");
   if (window.location.pathname === "/" || window.location.pathname.endsWith("index.html")) {
     runLogoAnimation();
   }
@@ -44,6 +42,7 @@ function runLogoAnimation() {
   });
 
 }
+
 
 
 
