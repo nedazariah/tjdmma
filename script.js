@@ -1,9 +1,9 @@
 $(document).ready(function () {
   $("#navBar").load("navbar.html", function () {
-  if (window.location.pathname === "/" || window.location.pathname.endsWith("index.html")) {
-    runLogoAnimation();
-  }
-});
+    if (window.location.pathname === "/" || window.location.pathname.endsWith("index.html")) {
+      runLogoAnimation();
+    }
+  });
   $("#footer").load("footer.html");
 });
 
@@ -42,6 +42,7 @@ function runLogoAnimation() {
   });
 
 }
+
 
 
 
