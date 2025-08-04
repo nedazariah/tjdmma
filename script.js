@@ -1,12 +1,12 @@
 console.log("Checking Log");
 $(document).ready(function () {
-  $("#navBar").load("navbar.html", function () {
+  $("#navBar").load("tjdmma/navbar.html", function () {
   console.log("Navbar loaded");
   if (window.location.pathname === "/" || window.location.pathname.endsWith("index.html")) {
     runLogoAnimation();
   }
 });
-  $("#footer").load("footer.html");
+  $("#footer").load("tjdmma/footer.html");
 });
 
 function runLogoAnimation() {
@@ -44,6 +44,7 @@ function runLogoAnimation() {
   });
 
 }
+
 
 
 
