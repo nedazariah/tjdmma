@@ -67,7 +67,7 @@ body {
 
 .otherContent {
   min-height: 100vh;
-  padding-block: 2rem; /* adds space above and below */
+  padding-block: 2rem; /* adds space above and below  */
   box-sizing: border-box;
 }
 
@@ -100,7 +100,7 @@ body {
   }
   #scheduleText {
     font-family: "Rock Salt", cursive;
-    font-size: 65px;
+    font-size: 40px;
   }
   #dateTimeText {
     padding-top: 50px;
@@ -114,6 +114,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  font-family: "Montserrat", cursive;
 }
 
 .dayActivity {
@@ -150,6 +151,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  font-family: "Montserrat", cursive;
 }
 
 .pricingDiv {
@@ -182,6 +184,7 @@ body {
 
 #scheduleRemarks {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -189,13 +192,82 @@ body {
   font-size: 13px;
 }
 
+#registerBtn {
+  width: 200px;
+}
+
+#registerBtn:hover {
+  color: black;
+}
+
 #scheduleRemarks a {
   color: mintcream;
   text-decoration: none;
 }
 
-#roster div {
+#rosterTitle {
   text-align: center;
+  font-family: "Rock Salt", cursive;
+  font-size: 40px;
+}
+
+.rosterSlot {
+  /*position: relative;*/
+  font-family: "Montserrat", cursive;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid white;
+}
+
+/*
+.fighterName {
+  position: absolute;
+  z-index: 2;
+}
+*/
+
+.rosterHoverContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /*z-index: 1;*/
+}
+
+.fighterImg {
+  height: 100%;
+  width: 50%;
+}
+
+.fighterImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+  .rightSide img {
+    object-position: 65% 50%;
+  }
+  .leftSide img {
+    object-position: 20% 50%;
+  }
+}
+
+.fighterInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+  padding: 15px;
+  height: 100%;
+  width: 50%;
 }
 
 /*
