@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>TJD | Home</title>
+        <link rel="icon" type="image/x-icon" href="assets/logo-transparent.png" />
         <link rel="stylesheet" href="style.css" />
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
@@ -30,7 +31,9 @@
                     <div id="gifDiv"></div>
                     <br />
                     <h5>BJJ - MMA</h5>
-                    <a class="btn btn-outline-light rounded-pill" role="button" href="#schedule" id="joinBtn">JOIN A CLASS</a>
+                    <a class="btn btn-outline-light rounded-pill" role="button" href="#schedule" id="joinBtn"
+                        >CHECK OUT CLASSES</a
+                    >
                 </div>
             </div>
 
@@ -79,22 +82,145 @@
                 </div>
                 <div id="scheduleRemarks" class="col-xl-11 col-lg-12 col-md-12 col-sm-12 offset-xl-1">
                     <p>
+                        <a
+                            class="btn btn-outline-light rounded-pill"
+                            role="button"
+                            href="https://wa.me/601110020443?text=Hi! I am interested in joining a class at TJDMMA"
+                            target="_blank"
+                            id="registerBtn">
+                            <strong>REGISTER</strong>
+                        </a>
+                    </p>
+                    <p>
                         * For more info & private training, drop us a DM
-                        <a href="https://www.instagram.com/tempurjarakdekatmma/" target="_blank"><strong>@tempurjarakdekat</strong></a>
-                        or Whatsapp <a href="https://wa.me/601110020443" target="_blank"><strong>011-1002&nbsp;0443</strong></a> //
-                        <a href="https://wa.me/60138847972" target="_blank"><span style="white-space: nowrap;"><strong>013-884&nbsp;7972</strong></span></a>
+                        <a href="https://www.instagram.com/tempurjarakdekatmma/" target="_blank"
+                            ><strong>@tempurjarakdekat</strong></a
+                        >
+                        or Whatsapp
+                        <a href="https://wa.me/601110020443" target="_blank"><strong>011-1002&nbsp;0443</strong></a> //
+                        <a href="https://wa.me/60138847972" target="_blank"
+                            ><span style="white-space: nowrap"><strong>013-884&nbsp;7972</strong></span></a
+                        >
                     </p>
                 </div>
             </div>
 
             <div class="row otherContent p-5" id="roster">
-                <div class="col-lg-4 cold-md-4 col-sm-6">ONE FACE</div>
-                <div class="col-lg-4 cold-md-4 col-sm-6">TWO FACE</div>
-                <div class="col-lg-4 cold-md-4 col-sm-6">THREE FACE</div>
-                <div class="col-lg-4 cold-md-4 col-sm-6">FOUR FACE</div>
-                <div class="col-lg-4 cold-md-4 col-sm-6">FIVE FACE</div>
-                <div class="col-lg-4 cold-md-4 col-sm-6">SIX FACE</div>
-                <div class="col-lg-4 cold-md-4 col-sm-6">SEVEN FACE</div>
+               <div id="rosterTitle" class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                   <p>FIGHTERS / COACHES</p>
+               </div>
+                <div class="rosterSlot p-3 col-xl-4 col-lg-6 cold-md-6 col-sm-12">
+                    <!--<div class="fighterName d-none d-xl-flex"><strong>KHAFI 'AL-GHAIB' RAHMAN</strong></div>-->
+                    <div class="rosterHoverContent">
+                        <div class="fighterImg rightSide">
+                            <img src="assets/roster/khafi.png" alt="" />
+                        </div>
+                        <div class="fighterInfo">
+                            <p><strong>KHAFI 'AL-GHAIB' RAHMAN</strong></p>
+                            <p>27</p>
+                            <p>Welterweight</p>
+                            <p>Orthodox</p>
+                            <p>3-0-0</p>
+                            <p>BJJ Purple Belt</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rosterSlot p-3 col-xl-4 col-lg-6 cold-md-6 col-sm-12">
+                    <!--<div class="fighterName d-none d-xl-flex"><strong>SYAHMI 'NICKNAME' L.NAME</strong></div>-->
+                    <div class="rosterHoverContent">
+                        <div class="fighterImg rightSide">
+                            <img src="assets/roster/syahmi.png" alt="" />
+                        </div>
+                        <div class="fighterInfo">
+                            <p><strong>SYAHMI 'NICKNAME' L.NAME</strong></p>
+                            <p>27</p>
+                            <p>Welterweight</p>
+                            <p>Orthodox</p>
+                            <p>1-1-0</p>
+                            <p>BJJ White Belt</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rosterSlot p-3 col-xl-4 col-lg-6 cold-md-6 col-sm-12">
+                    <!--<div class="fighterName d-none d-xl-flex"><strong>IQBAL 'AL-KHANIQ' AFFENDI</strong></div>-->
+                    <div class="rosterHoverContent">
+                        <div class="fighterImg rightSide">
+                            <img src="assets/roster/iqbal.png" alt="" />
+                        </div>
+                        <div class="fighterInfo">
+                            <p><strong>IQBAL 'AL-KHANIQ' AFFENDI</strong></p>
+                            <p>27</p>
+                            <p>Welterweight</p>
+                            <p>Orthodox</p>
+                            <p>0-2-0</p>
+                            <p>BJJ White Belt</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rosterSlot p-3 col-xl-4 col-lg-6 cold-md-6 col-sm-12">
+                    <!--<div class="fighterName d-none d-xl-flex"><strong>HAZIQ 'AL-SAIF' L.NAME</strong></div>-->
+                    <div class="rosterHoverContent">
+                        <div class="fighterImg leftSide">
+                            <img src="assets/roster/haziqA.png" alt="" />
+                        </div>
+                        <div class="fighterInfo">
+                            <p><strong>HAZIQ 'AL-SAIF' L.NAME</strong></p>
+                            <p>27</p>
+                            <p>Welterweight</p>
+                            <p>Orthodox</p>
+                            <p>2-1-0</p>
+                            <p>BJJ White Belt</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rosterSlot p-3 col-xl-4 col-lg-6 cold-md-6 col-sm-12">
+                    <!--<div class="fighterName d-none d-xl-flex"><strong>HAZIQ ' NICKNAME' L.NAME</strong></div>-->
+                    <div class="rosterHoverContent">
+                        <div class="fighterImg rightSide">
+                            <img src="assets/roster/haziq.png" alt="" />
+                        </div>
+                        <div class="fighterInfo">
+                            <p><strong>HAZIQ ' NICKNAME' L.NAME</strong></p>
+                            <p>27</p>
+                            <p>Welterweight</p>
+                            <p>Orthodox</p>
+                            <p>0-0-0</p>
+                            <p>BJJ White Belt</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rosterSlot p-3 col-xl-4 col-lg-6 cold-md-6 col-sm-12">
+                    <!--<div class="fighterName d-none d-xl-flex"><strong>F.NAME 'NICKNAME' L.NAME</strong></div>-->
+                    <div class="rosterHoverContent">
+                        <div class="fighterImg">
+                            <img src="assets/roster/arif.png" alt="">
+                        </div>
+                        <div class="fighterInfo">
+                            <p><strong>ARIF 'NICKNAME' L.NAME</strong></p>
+                            <p>27</p>
+                            <p>Welterweight</p>
+                            <p>Orthodox</p>
+                            <p>0-1-0</p>
+                            <p>BJJ White Belt</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rosterSlot p-3 col-xl-4 col-lg-6 cold-md-6 col-sm-12 offset-xl-4 offset-lg-3 offset-md-3">
+                    <!--<div class="fighterName d-none d-xl-flex"><strong>F.NAME 'NICKNAME' L.NAME</strong></div>-->
+                    <div class="rosterHoverContent">
+                        <div class="fighterImg">
+                            <img src="assets/roster/unknown.png" alt="">
+                        </div>
+                        <div class="fighterInfo">
+                            <p><strong>NAZIRULMUBIN 'NICKNAME' L.NAME</strong></p>
+                            <p>27</p>
+                            <p>Welterweight</p>
+                            <p>Orthodox</p>
+                            <p>0-0-0</p>
+                            <p>BJJ White Belt</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
