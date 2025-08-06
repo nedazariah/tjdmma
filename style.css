@@ -7,16 +7,17 @@ body {
   flex-direction: column;
 }
 
-#navBar {
+#navBar,
+.navbarDiv {
   height: 20vh;
 }
 
 #navBarLogoDesktop {
-  height: 19vh;
+  height: 100%;
 }
 
 #navBarLogoMobile {
-  height: 18vh;
+  height: 100%;
 }
 
 #desktopOverlayLogo {
@@ -46,22 +47,33 @@ body {
   margin: auto;
 }
 
-#introContent {
+#intro {
   height: 80vh;
+}
+
+#introContent {
+  height: 100%;
   width: 100%;
   text-align: center;
 }
 
 #gifDiv {
-  height: 60vh;
+  height: 60%;
   background-image: url(assets/TJD.gif);
   background-repeat: no-repeat;
   background-size: fill;
   background-position: 50% 50%;
 }
 
+#mainContent {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #joinBtn {
-  margin-top: 10px;
   width: 250px;
 }
 
@@ -203,6 +215,10 @@ body {
 #scheduleRemarks a {
   color: mintcream;
   text-decoration: none;
+}
+
+#roster {
+  height: 100%;
 }
 
 #rosterTitle {
